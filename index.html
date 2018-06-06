@@ -1,0 +1,952 @@
+<!doctype html>
+<html>
+<head>
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine3/style.css" />
+<script type="text/javascript" src="engine3/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<meta charset="utf-8">
+<title>TUTORIAL DSUPE</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet"href="css/tema-10.min.css"/>
+<link rel="stylesheet"href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet"href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"type="text/javascrip"></script>
+
+<script src="phonegap.js"></script><!-- necesario*/ -->
+
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+<body onLoad="MM_preloadImages('imagenes/2.jpg','imagenes/4.gif','imagenes/6.jpg','imagenes/8.jpg','imagenes/33.gif','imagenes/35.gif','imagenes/visual_studio_purple.png')">
+<div data-role="page" id="Principal" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>TUTORIAL DSUPE</h1>
+  </div>
+  
+ <div data-role="main" class="ui-content">
+ <div>
+   <ul data-role="listview" data-theme="b" class="ui-listvew ui-group-theme-a">
+     <li class="ui-first-child ui-last-child">
+       <a href="#page2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Desarrolla el proceso para dar solucion a un problema por Computadora</h2>
+       </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#page3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Identifica y aplica el principio de programacion Estructurada</h2>
+       </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#page4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Reconocimiento del entorno de desarrollo grafico del DFD</h2>
+       </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#page5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Reconocimiento del entorno de desarrollo grafico PseInt</h2>
+       </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#page6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Reconocimiento del entorno de desarrollo grafico de C#</h2>
+       </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#page7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Desarrolla procesos de estructura Lineal</h2>
+       </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#page8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Desarrolla procesos de estructura Condicional</h2>
+       </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#page9" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Desarrolla procesos de estructura Repetitiva</h2>
+       </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#page10" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Uso de variables tipo Arreglo</h2>
+       </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#page11" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Convierte Programas elaborados en archivos Ejecutables</h2>
+       </a>
+     </li>
+     <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+     <h2>Datos del Desarrollador</h2>
+     <div>
+      <ul>
+       <li>Juan Pablo Torres Miscoac</li>
+       <li>Grupo: "E" </li>
+       <li>Semestre: "4º"</li>
+       <li>Submodulo: Desarrolla Aplicaciones Moviles (DAM)</li>
+       <li>Docente: Josè Antonio Gòmez Hernàndez</li>
+      </ul>
+     </div>
+   </ul>
+  </div>
+  </div>
+     
+   <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+     <h4>Juan Pablo Torres Miscoac App 10</h4>
+       <img src="res/android/mdpi.png" width="56" height="46">
+   </div>
+  </div>
+       
+<div data-role="page" id="page2" data-theme="b">     
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+      <h1>Desarrolla el proceso para dar solucion a un problema por Computadora</h1>
+    </div>
+    <div data-role="content" align="justify">
+     </div>
+       <p>
+         
+       </p>
+  <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+     <h2>Analizar el Problema</h2>
+     <div>
+      <ul>
+       <li>Entender el problema</li>
+       <li>Hacer un analisis del problema</li>
+       <li>Programar el modelo de solucion</li>
+       <li>Codificarlo</li>
+       <li>Se pudes codificar con (DFD) Diagrama de Flujo, Seudocòdigo (PseInt) y Còdigo (C#).
+       <li>Cargarlo en la Computadora para su Ejecucion, Ajuste y Prueba de Escritorio</li>
+       <li>Darle Mantenimiento a lo largo de su vida Util</li>
+      </ul>
+     </div>
+   </ul>
+  </div>
+  </div>
+  <div align="center">
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','imagenes/2.jpg',1)"><img src="imagenes/1.png" width="711" height="147" id="Image12"></a></div>
+  
+<div data-role="content" align="center">
+  <div data-role="main" class="ui-content" align="justify">
+  <div style="width:20%;">
+    <a href="https://sites.google.com/site/programacionestructuradafeg/home/unidad-1/a-desarrollo-del-procedimiento-para-tratar-problemas-por-computadora" class="ui-btn ui-btn-icon-right">
+    <h2>Seguir leyendo...</h2>
+    </a>
+  </div>
+</div>
+</div>
+       
+       <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+     <h4>Juan Pablo Torres Miscoac</h4>
+       <img src="res/android/mdpi.png" width="56" height="46">
+   </div>
+  </div>
+  
+<div data-role="page" id="page3" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+        <h1>Identifica y aplica el principio de programacion Estructurada</h1>
+       </div>
+       <div data-role="content" align="justify">
+         <p>
+        <h2>Programación estructurada</h2>
+
+La programación estructurada es una técnica para escribir programas (programación de computadora) de manera clara. Para ello se utilizan únicamente tres estructuras: secuencia, selección e iteración; siendo innecesario el uso de la instrucción o instrucciones de transferencia incondicional (GOTO, EXIT FUNCTION, EXIT SUB o múltiples RETURN).
+
+Hoy en día las aplicaciones informáticas son mucho más ambiciosas que las necesidades de programación existentes en los años 1960, principalmente debido a las aplicaciones gráficas, por lo que las técnicas de programación estructurada no son suficientes. Ello ha llevado al desarrollo de nuevas técnicas, tales como la programación orientada a objetos y el desarrollo de entornos de programación que facilitan la programación de grandes aplicaciones.
+
+Contenido 1 Orígenes de la programación estructurada 1.1 Estructura secuencial 1.2 Estructura selectiva o de selección 1.3 Estructura iterativa 1.4 Anidamiento 2 Ventajas de la programación estructurada 3 Inconvenientes de la programación estructurada 4 Bibliografia 5 Véase también 6 Enlaces externos [editar]Orígenes de la programación estructurada
+
+A finales de los años 1960 surgió una nueva forma de programar que no solamente daba lugar a programas fiables y eficientes, sino que además estaban escritos de manera que facilitaba su comprensión posterior.
+
+El teorema del programa estructurado, propuesto por Böhm-Jacopini, demuestra que todo programa puede escribirse utilizando únicamente las tres instrucciones de control siguientes:
+
+Secuencia Instrucción condicional. Iteración (bucle de instrucciones) con condición al principio. Solamente con estas tres estructuras se pueden escribir todos los programas y aplicaciones posibles. Si bien los lenguajes de programación tienen un mayor repertorio de estructuras de control, éstas pueden ser construidas mediante las tres básicas citadas.
+
+[editar]Estructura secuencial Una estructura de programa es secuencial si las instrucciones se ejecutan una tras otra, a modo de secuencia lineal, es decir que una instrucción no se ejecuta hasta que finaliza la anterior, ni se bifurca el flujo del programa. 
+         </p>
+          </div>
+  <div data-role="main" class="ui-content">
+  <div align="center">
+  <img src="imagenes/9.jpg" width="56%" height="auto">
+  </div>
+  <div data-role="collapsible" data-content-theme="false">
+     <h2>Aplicar el princio de programacion estructurada</h2>
+     <div>
+      <ul>
+       <li>
+       <h2>Estructura Secuencial</h2>  
+Indica  que  las  instrucciones  de  un  programa  se  ejecutan  una  después  de  la  
+otra,  en  el  mismo  orden  en  el  cual  aparecen  en  el  programa.  Se  representa  
+gráficamente  como  una  caja  después  de  otra,  ambas  con  una  sola  entrada  y  
+una única salida. 
+Las cajas A y B pueden ser definidas para ejecutar desde una simple instrucción 
+hasta  un  módulo  o  programa  completo,  siempre  y  cuando  éstos  también  sean  
+programas apropiados.  </li>
+<br>
+       <li>
+       <h2>Estructura Selectiva</h2>  
+También   conocida   como   la   estructu
+ra   SI-VERDADERO-FALSO,   plantea   la   
+selección  entre  dos  alternativas  con  base  en  el  resultado  de  la  evaluación  de  
+una   condición;   equivale   a   la   instrucción   IF   de   todos   los   lenguajes   de   
+programación y se representa gráf
+icamente de la siguiente manera:
+En  el  diagrama  de  flujo  anterior,  C  es
+  una  condición  que  se  evalúa;  A  es  la  
+acción que se ejecuta cuando la evaluación de esta condición resulta verdadera 
+y B es la acción ejecutada cuando el resultado de la evaluación indica falso. La 
+estructura también tiene una sola entrad
+a y una sola salida; y las funciones A y 
+B también pueden ser cualquier estructura básica o conjunto de estructuras. </li>
+       <br>
+       <li>
+       <h2>Estructura Repetitiva (Iterativa)</h2>  
+También   llamada   la   estructura   HACE
+R-MIENTRAS-QUE,   corresponde   a   la   
+ejecución repetida de una instrucción mientras que se cumple una determinada 
+condición. El diagrama de flujo para
+ esta estructura es el siguiente: 
+Programación.
+Aquí  el  bloque  A  se  ejecuta  repetida
+mente  mientras  que  la  condición  C  se  
+cumpla  o  sea  cierta.  También  tiene  una
+  sola  entrada  y  una  sola  salida;  
+igualmente A puede ser cualquier estructura básica o conjunto de estructuras. </li>
+       <img src>
+      </ul>
+     </div>
+   </ul>
+  </div>
+  </div>
+        <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+     <h2>Aplicar el princio de programacion estructurada</h2>
+     <div align="center">
+      <ul>
+       <p>Estructura Secuencial</p>
+       <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image14','','imagenes/4.gif',1)"><img src="imagenes/3.jpg" width="279" height="181" id="Image14"></a>
+<p>Estructura Selectiva</p>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image15','','imagenes/6.jpg',1)"><img src="imagenes/5.jpg" width="444" height="545" id="Image15"></a>
+<p>Estructura Repetitiva (Iterativa)</p>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image16','','imagenes/8.jpg',1)"><img src="imagenes/7.jpg" width="601" height="415" id="Image16"></a>
+      </ul>
+     </div>
+   </ul>
+  </div>
+  </div>
+        
+     <div data-role="content" align="center">
+  <div data-role="main" class="ui-content" align="justify">
+  <div style="width:20%;">
+    <a href="https://es.wikiversity.org/wiki/T%C3%A9cnicas_de_programaci%C3%B3n/Programaci%C3%B3n_estructurada" class="ui-btn ui-btn-icon-right">
+    <h2>Seguir leyendo...</h2>
+    </a>
+  </div>
+</div>
+</div>
+
+   
+         
+     <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+     <h4>Juan Pablo Torres Miscoac</h4>
+       <img src="res/android/mdpi.png" width="56" height="46">
+   </div>
+  </div>
+    
+<div data-role="page" id="page4" data-theme="b">     
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+      <h1>Reconocimiento del entorno de desarrollo grafico del DFD</h1>
+    </div>
+     <div data-role="content" align="justify">
+       <p>
+          <h2>Entorno Grafico (DFD)</h2>
+          Análisis de Transformación, El análisis de transformación es un conjunto de pasos que permiten obtener, a partir de un DFD con características de transformación, la estructura del diseño de alto nivel del sistema. Un DFD con características de transformación es aquél en el que se pueden distinguir:
+       </p>
+       </div>
+       <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+     <h2>Diagrama de flujo</h2>
+     <div>
+      <ul>
+       <li>Modulo de Proceso</li>
+       <li>Condicion</li>
+       <li>Salto</li>
+       <li>Curva</li>
+       <li>Flujo de Datos</li>
+       <li>Diagramas de Control</li>
+      </ul>
+     </div>
+   </ul>
+  </div>
+  </div>
+       
+     <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/19.png" alt="19" title="19" id="wows2_0"/></li>
+		<li><img src="data2/images/20.png" alt="20" title="20" id="wows2_1"/></li>
+		<li><img src="data2/images/21.png" alt="21" title="21" id="wows2_2"/></li>
+		<li><img src="data2/images/22.png" alt="22" title="22" id="wows2_3"/></li>
+		<li><img src="data2/images/23.png" alt="23" title="23" id="wows2_4"/></li>
+		<li><img src="data2/images/24.png" alt="24" title="24" id="wows2_5"/></li>
+		<li><a href="http://wowslider.net"><img src="data2/images/25.png" alt="html5 slideshow" title="25" id="wows2_6"/></a></li>
+		<li><img src="data2/images/26.png" alt="26" title="26" id="wows2_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="19"><span><img src="data2/tooltips/19.png" alt="19"/>1</span></a>
+		<a href="#" title="20"><span><img src="data2/tooltips/20.png" alt="20"/>2</span></a>
+		<a href="#" title="21"><span><img src="data2/tooltips/21.png" alt="21"/>3</span></a>
+		<a href="#" title="22"><span><img src="data2/tooltips/22.png" alt="22"/>4</span></a>
+		<a href="#" title="23"><span><img src="data2/tooltips/23.png" alt="23"/>5</span></a>
+		<a href="#" title="24"><span><img src="data2/tooltips/24.png" alt="24"/>6</span></a>
+		<a href="#" title="25"><span><img src="data2/tooltips/25.png" alt="25"/>7</span></a>
+		<a href="#" title="26"><span><img src="data2/tooltips/26.png" alt="26"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery slider</a> by WOWSlider.com v8.8</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->  
+        
+     <div data-role="content" align="center">
+  <div data-role="main" class="ui-content" align="justify">
+  <div style="width:20%;">
+    <a href="https://www.tutorialspoint.com/es/software_engineering/software_analysis_design_tools.htm" class="ui-btn ui-btn-icon-right">
+    <h2>Seguir leyendo...</h2>
+    </a>
+  </div>
+</div>
+</div> 
+
+  <div data-role="content" align="center">
+  <div data-role="main" class="ui-content" align="justify">
+  <div style="width:20%;">
+    <a href="https://www.youtube.com/watch?v=IFIxFhfS2LY" class="ui-btn ui-btn-icon-right">
+    <h2>Click para ver Video...</h2>
+    </a>
+  </div>
+</div>
+</div>
+         
+   <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+     <h4>Juan Pablo Torres Miscoac</h4>
+       <img src="res/android/mdpi.png" width="56" height="46">
+   </div>
+  </div>
+    
+<div data-role="page" id="page5" data-theme="b">     
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+      <h1>Reconocimiento del entorno de desarrollo grafico PseInt</h1>
+    </div>
+    <div data-role="content" align="justify">
+       <p>
+         <h2>Entorno Grafico (PseInt)</h2>
+         Advertencia: Las sintaxis que aquí se presenta corresponde a la sintaxis en la cual se basó originalmente el proyecto. Desde hace varias versiones estoy buscando que en la palabra pseudocódigo pese más la parte pseudo que la de código. Para ello se han agregado posibles sinónimos, sintaxis alternativas o versiones incompletas de algunas construcciones en pos de desrigidizar el pseudolenguaje utilizado, siempre y cuando no se caiga en ninguna ambigüedad respecto a su interpretación. Actualmente, el intérprete puede configurarse para obligar al alumno a respetar completamente la sintaxis original, aceptar las variaciones, o algunos grados intermedios (ver perfiles para una comparación entre dos versiones de un mismo algoritmo).
+
+
+El Pseudo-código
+
+Las características de este pseudolenguaje fueron propuestas en 2001 por el responsable de la asignatura Fundamentos de Programación de la carrera de Ingeniería Informática de la FICH-UNL. Las premisas son:
+Sintaxis sencilla
+Manejo de las estructuras básicas de control
+Solo 3 tipos de datos básicos: numérico, caracter /cadenas de caracteres y lógico (verdadero-falso).
+Estructuras de datos: arreglos.
+Todo algoritmo en pseudocógido tiene la siguiente estructura general:
+
+     <li>Proceso SinTitulo</li>
+        <li>accion 1;</li>
+        <li>accion 1;</li>
+             <li>"</li>
+             <li>"</li>
+             <li>"</li>
+       <li>accion n;</li>
+     <li>FinProceso</li>
+     
+Comienza con la palabra clave Proceso seguida del nombre del programa, luego le sigue una secuencia de instrucciones y finaliza con la palabra FinProceso. Una secuencia de instrucciones es una lista de una o más instrucciones, cada una terminada en punto y coma.
+       </p>
+       </div>
+        <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+     <h2>Seudo-Còdigo</h2>
+     <div>
+      <ul>
+       <li>Asignación</li>
+       <li>Entradas</li>
+       <li>Salidas</li>
+       <li>Dimensionamiento</li>
+       <li>Condicional Si-Entonces</li>
+      </ul>
+     </div>
+   </ul>
+  </div>
+  </div>
+ 
+  <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+     <h2>Entorno PseInt</h2>
+     <div>
+      <ul>
+       <li>Selección Multiple</li>
+       <li>Lazos Mientras</li>
+       <li>Lazos Repetir</li>
+       <li>Lazos Para</li>
+       <li>Operadores y Funciones</li>
+      </ul>
+     </div>
+   </ul>
+  </div>
+  </div>
+      
+      <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/10.png" alt="10" title="10" id="wows1_0"/></li>
+		<li><img src="data1/images/11.png" alt="11" title="11" id="wows1_1"/></li>
+		<li><img src="data1/images/14.png" alt="14" title="14" id="wows1_2"/></li>
+		<li><img src="data1/images/15.png" alt="15" title="15" id="wows1_3"/></li>
+		<li><img src="data1/images/16.png" alt="16" title="16" id="wows1_4"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/17.png" alt="css slider" title="17" id="wows1_5"/></a></li>
+		<li><img src="data1/images/18.png" alt="18" title="18" id="wows1_6"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="10"><span><img src="data1/tooltips/10.png" alt="10"/>1</span></a>
+		<a href="#" title="11"><span><img src="data1/tooltips/11.png" alt="11"/>2</span></a>
+		<a href="#" title="14"><span><img src="data1/tooltips/14.png" alt="14"/>3</span></a>
+		<a href="#" title="15"><span><img src="data1/tooltips/15.png" alt="15"/>4</span></a>
+		<a href="#" title="16"><span><img src="data1/tooltips/16.png" alt="16"/>5</span></a>
+		<a href="#" title="17"><span><img src="data1/tooltips/17.png" alt="17"/>6</span></a>
+		<a href="#" title="18"><span><img src="data1/tooltips/18.png" alt="18"/>7</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">slider</a> by WOWSlider.com v8.8</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+        
+    <div data-role="content" align="center">
+  <div data-role="main" class="ui-content" align="justify">
+  <div style="width:20%;">
+    <a href="http://pseint.sourceforge.net/index.php?page=features.php" class="ui-btn ui-btn-icon-right">
+    <h2>Seguir leyendo...</h2>
+    </a>
+  </div>
+</div>
+</div>
+
+<div data-role="content" align="center">
+  <div data-role="main" class="ui-content" align="justifyr">
+  <div style="width:20%;">
+    <a href="http://docplayer.es/docs-video/79/12139441/video.mp4" class="ui-btn ui-btn-icon-right">
+    <h2>Click para ver Video...</h2>
+    </a>
+  </div>
+</div>
+</div>    
+       
+    <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+     <h4>Juan Pablo Torres Miscoac</h4>
+       <img src="res/android/mdpi.png" width="56" height="46">
+   </div>
+  </div>
+      
+<div data-role="page" id="page6" data-theme="b">     
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+      <h1>Reconocimiento del entorno de desarrollo grafico de C#</h1>
+    </div>
+    <div data-role="content" align="justify">
+       <p>
+         <h2>Entorno Grafico (C#)</h2>
+       </p>
+       </div>
+       <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+     <h2>Codigo C#</h2>
+     <div>
+      <ul>
+       <li>flexible</li>
+       <li>amigable</li>
+       <li>Profecional</li>
+       <li>funciones variadas</li>
+       <li>Buen lenguaje</li>
+       <li>facil de manejar</li>
+      </ul>
+     </div>
+   </ul>
+  </div>
+  </div>
+        <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+     <h2>Aplicar el princio de programacion estructurada</h2>
+     <div>
+      <ul>
+       <li>Entorno del Còdigo C#</li>
+       <li>Hacer un analisis del problema</li>
+       <li>Programar el modelo de solucion</li>
+       <li>Codificarlo</li>
+       <li>Cargarlo en la Computadora para su Ejecucion y Ajuste</li>
+       <li>Darle Mantenimiento a lo largo de su vida Util</li>
+      </ul>
+     </div>
+   </ul>
+  </div>
+  </div>
+        
+     <div data-role="content" align="center">
+  <div data-role="main" class="ui-content" align="justify">
+  <div style="width:20%;">
+    <a href="https://es.wikiversity.org/wiki/T%C3%A9cnicas_de_programaci%C3%B3n/Programaci%C3%B3n_estructurada" class="ui-btn ui-btn-icon-right">
+    <h2>Seguir leyendo...</h2>
+    </a>
+  </div>
+</div>
+</div>
+
+<div data-role="content" align="center">
+  <div data-role="main" class="ui-content" align="justify">
+  <div style="width:20%;">
+    <a href="https://www.youtube.com/watch?v=2MDILYJYv50" class="ui-btn ui-btn-icon-right">
+    <h2>Click para ver Video...</h2>
+    </a>
+  </div>
+</div>
+</div>  
+       
+       <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+     <h4>Juan Pablo Torres Miscoac</h4>
+       <img src="res/android/mdpi.png" width="56" height="46">
+   </div>
+  </div>
+      
+<div data-role="page" id="page7" data-theme="b">     
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+      <h1>Desarrolla procesos de estructura Lineal</h1>
+    </div>
+    <div data-role="content" align="justify">
+       <p>
+         <h2>Proceso Estructura Lineal</h2>
+       </p>
+       </div>
+       <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+     <h2>proceso lineal</h2>
+     <div>
+      <ul>
+       <li>Definición
+
+Es la más simple de las estructuras de organización en las que hay un solo jefe que da las directivas y órdenes al resto de los empleados. Existe una responsabilidad directa e inmediata, ya que los subordinados dependen de un solo superior.</li>
+       <li>Características
+
+    Posee una jerarquización de la autoridad en la cual los superiores son obedecidos por sus respectivos subalternos.
+    Únicamente se comercializan los órganos o cargos a través de las líneas presentes del organigrama, excepto los citados en la cima del mismo.
+
+    Posee una estructura piramidal: a medida que los eleva, la jerarquía disminuye el número de cargos u órganos.</li>
+       <li>Ventajas
+
+    Relación de autoridad clara.
+    Subordinación jerárquica: no existe posibilidad de interferencia.
+    Control directo e inmediato.
+</li>
+       <li>Desventajas
+
+    Falta de flexibilidad para adaptarse al crecimiento de la empresa.
+    Los niveles jerárquicos se toman imprescindibles y difíciles de reemplazar si es necesario.
+</li>
+       <li>Aplicación de la estructura lineal
+
+    Cuando se trata de una organización pequeña o en etapa de desarrollo.
+    Cuando no requiere directivos o técnicos especializados.
+    Cuando la organización lleva a cabo tareas que resultan repetitivas o frecuentes.
+</li>
+      </ul>
+     </div>
+   </ul>
+  </div>
+  </div>
+        <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+     <h2>Estructura Lineal</h2>
+     <div>
+       <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container3">
+<div class="ws_images"><ul>
+		<li><img src="data3/images/27.jpg" alt="27" title="27" id="wows3_0"/></li>
+		<li><img src="data3/images/28.jpg" alt="28" title="28" id="wows3_1"/></li>
+		<li><a href="http://wowslider.net"><img src="data3/images/30.png" alt="slideshow html code" title="30" id="wows3_2"/></a></li>
+		<li><img src="data3/images/31.png" alt="31" title="31" id="wows3_3"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="27"><span><img src="data3/tooltips/27.jpg" alt="27"/>1</span></a>
+		<a href="#" title="28"><span><img src="data3/tooltips/28.jpg" alt="28"/>2</span></a>
+		<a href="#" title="30"><span><img src="data3/tooltips/30.png" alt="30"/>3</span></a>
+		<a href="#" title="31"><span><img src="data3/tooltips/31.png" alt="31"/>4</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">javascript image slider</a> by WOWSlider.com v8.8</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine3/wowslider.js"></script>
+<script type="text/javascript" src="engine3/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+     </div>
+   </ul>
+  </div>
+  </div>
+        
+     <div data-role="content" align="center">
+  <div data-role="main" class="ui-content" align="justify">
+  <div style="width:20%;">
+    <a href="https://www.gestiopolis.com/programacion-lineal-en-la-investigacion-de-operaciones/" class="ui-btn ui-btn-icon-right">
+    <h2>Seguir leyendo...</h2>
+    </a>
+  </div>
+</div>
+</div>
+
+<div data-role="content" align="center">
+  <div data-role="main" class="ui-content" align="justify">
+  <div style="width:20%;">
+    <a href="https://www.youtube.com/watch?v=IsGm2UD1zCc" class="ui-btn ui-btn-icon-right">
+    <h2>Click para ver Video...</h2>
+    </a>
+  </div>
+</div>
+</div> 
+       
+       <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+     <h4>Juan Pablo Torres Miscoac</h4>
+       <img src="res/android/mdpi.png" width="56" height="46">
+   </div>
+  </div>
+      
+<div data-role="page" id="page8" data-theme="b">     
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+      <h1>Desarrolla procesos de estructura Condicional</h1>
+    </div>
+    <div data-role="content" align="justify">
+       <p>
+         <h2>Proceso Estructura Condicional</h2>
+         Las estructuras condicionales comparan una variable contra otro(s)valor (es), para que en base al resultado de esta comparación, se siga un curso de acción dentro del programa. Cabe mencionar que la comparación se puede hacer contra otra variable o contra una constante, según se necesite. Existen tres tipos básicos, las simples, las dobles y las múltiples. 
+       </p>
+       </div>
+       <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+     <h2>Estructuras condicionales</h2>
+     <div>
+      <ul>
+       <li>Simples:
+
+Las estructuras condicionales simples se les conoce como Tomas de decisión. Estas tomas de decisión tienen la siguiente forma</li>
+       <li>Dobles:
+
+Las estructuras condicionales dobles permiten elegir entre dos opciones o alternativas posibles en función del cumplimiento o no de una determinada condición. Se representa de la siguiente forma:</li>
+       <li>Donde:
+Si:Indica el comando de comparación
+Condición : Indica la condición a evaluar
+Entonces : Precede a las acciones a realizar cuando se cumple la condición
+Instrucción(es):Son las acciones a realizar cuando se cumple o no la condición
+si no :Precede a las acciones a realizar cuando no se cumple la condición
+Dependiendo de si la comparación es cierta o falsa, se pueden realizar una o más acciones.</li>
+       <li>Múltiples:
+
+Las estructuras de comparación múltiples, son tomas de decisión especializadas que permiten comparar una variable contra distintos posibles resultados, ejecutando para cada caso una serie de instrucciones especificas. La forma común es la siguiente: </li>
+       <li>Múltiples (En caso de):
+
+Las estructuras de comparación múltiples, es una toma de decisión especializada que permiten evaluar una variable con distintos posibles resultados, ejecutando para cada caso una serie de instrucciones especificas. La forma es la siguiente: </li>
+      </ul>
+     </div>
+   </ul>
+  </div>
+  </div>
+        <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+     <h2>Estructura Condicional</h2>
+     <div align="center">
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image56','','imagenes/33.gif',1)"><img src="imagenes/33.1.gif" width="200" height="135" id="Image56"></a>
+        <br>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image57','','imagenes/35.gif',1)"><img src="imagenes/34.gif" width="406" height="448" id="Image57"></a> </div>
+   </ul>
+  </div>
+  </div>
+
+<div data-role="content" align="center">
+  <div data-role="main" class="ui-content" align="justify">
+  <div style="width:20%;">
+    <a href="https://desarrolloweb.com/articulos/2225.php" class="ui-btn ui-btn-icon-right">
+    <h2>Seguir leyendo...</h2>
+    </a>
+  </div>
+</div>
+</div>
+
+<div data-role="content" align="center">
+  <div data-role="main" class="ui-content" align="justify">
+  <div style="width:20%;">
+    <a href="https://www.youtube.com/watch?v=9eP5fzy4gvI" class="ui-btn ui-btn-icon-right">
+    <h2>Click para ver Video...</h2>
+    </a>
+  </div>
+</div>
+</div> 
+       
+       <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+     <h4>Juan Pablo Torres Miscoac</h4>
+       <img src="res/android/mdpi.png" width="56" height="46">
+   </div>
+  </div>
+      
+<div data-role="page" id="page9" data-theme="b">     
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+      <h1>Desarrolla procesos de estructura Repetitiva</h1>
+    </div>
+    <div data-role="content" align="justify">
+       <p>
+         <h2>Proceso Estructura Repetitiva</h2>
+         
+Estructuras Repetitivas
+
+Las estructuras repetitivas se utilizan cuando se quiere que un conjunto de instrucciones se ejecuten un cierto número finito de veces, por ejemplo, escribir algo en pantalla cierta cantidad de veces, mover un objeto de un punto a otro cierta cantidad de pasos, o hacer una operación matemática cierta cantidad de veces. Se les llama bucle o ciclo a todo proceso que se repite cierto número de veces dentro de un pseudocódigo o un programa y las estructuras repetitivas nos permiten hacerlo de forma sencilla.
+       </p>
+       </div>
+       <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+     <h2>Ciclos</h2>
+     <div>
+      <ul>
+       <li>FOR (PARA)
+
+Esta estructura ejecuta las acciones del cuerpo del bucle un número especificado de veces, y de modo automático controla el número de iteraciones o pasos.</li>
+<br>
+       <li>WHILE (MIENTRAS)
+
+Repite el cuerpo del bucle mientras se cumpla una determinada condición</li>
+<br>
+       <li>DO- WHILE (HACER MIENTRAS)
+
+La estructura HACER MIENTRAS cumple la misma función que la estructura MIENTRAS. La diferencia está en que la estructura  MIENTRAS comprueba la condición al inicio y repetir lo hace al final. Es por ello que la estructura HACER MIENTRAS se ejecuta por lo menos una vez.</li>
+      </ul>
+     </div>
+   </ul>
+  </div>
+  </div>
+        <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+     <h2>Estructura repetitiva</h2>
+     <div align="center">
+      <img src="imagenes/36.jpg" width="56%" height="auto">    
+     </div>
+   </ul>
+  </div>
+  </div>
+        
+     <div data-role="content" align="center">
+  <div data-role="main" class="ui-content" align="justify">
+  <div style="width:20%;">
+    <a href="http://programacion-informatica-copol2012.blogspot.com/2012/07/estructuras-repetitivas.html" class="ui-btn ui-btn-icon-right">
+    <h2>Seguir leyendo...</h2>
+    </a>
+  </div>
+</div>
+</div>
+
+<div data-role="content" align="center">
+  <div data-role="main" class="ui-content" align="justify">
+  <div style="width:20%;">
+    <a href="https:https://www.youtube.com/watch?v=yBjaS-REYUc" class="ui-btn ui-btn-icon-right">
+    <h2>Click para ver Video...</h2>
+    </a>
+  </div>
+</div>
+</div> 
+       
+       <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+     <h4>Juan Pablo Torres Miscoac</h4>
+       <img src="res/android/mdpi.png" width="56" height="46">
+   </div>
+  </div>
+      
+<div data-role="page" id="page10" data-theme="b">     
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+      <h1>Uso de variable tipo Arreglo</h1>
+    </div>
+    <div data-role="content" align="justify">
+       <p>
+         <h2>Variable tipo Arreglo</h2>
+         
+         
+       </p>
+       </div>
+       <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+     <h2>Arreglos</h2>
+     <div>
+      <ul>
+        <li>os elementos tienen un orden y se pueden acceder mediante su posición,</li>
+       <li>los elementos se pueden recorrer usando un ciclo for.</li>
+       <li>Sin embargo, también tienen algunas restricciones:</li>
+       <li>todos los elementos del arreglo deben tener el mismo tipo.</li>
+       <li>en general, el tamaño del arreglo es fijo (no van creciendo dinámicamente como las listas).</li>
+       <li>se ocupan principalmente para almacenar datos numéricos.</li>
+      </ul>
+     </div>
+   </ul>
+  </div>
+  </div>
+        <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+     <h2>Tipos de Arreglos</h2>
+     <div align="center">
+      <img src="imagenes/39.jpg" width="56%" height="auto">
+      <br>
+      <img src="imagenes/40.PNG" width="56%" height="auto">
+      <br>
+      <img src="imagenes/41.PNG" width="56%" height="auto">
+     </div>
+   </ul>
+  </div>
+  </div>
+        
+     <div data-role="content" align="center">
+  <div data-role="main" class="ui-content" align="justify">
+  <div style="width:20%;">
+    <a href="http://progra.usm.cl/apunte/materia/arreglos.html" class="ui-btn ui-btn-icon-right">
+    <h2>Seguir leyendo...</h2>
+    </a>
+  </div>
+</div>
+</div>
+
+<div data-role="content" align="center">
+  <div data-role="main" class="ui-content" align="justify">
+  <div style="width:20%;">
+    <a href="https://www.youtube.com/watch?v=5LoigeLCeoo" class="ui-btn ui-btn-icon-right">
+    <h2>Click para ver Video...</h2>
+    </a>
+  </div>
+</div>
+</div> 
+       
+       <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+     <h4>Juan Pablo Torres Miscoac</h4>
+       <img src="res/android/mdpi.png" width="56" height="46">
+   </div>
+  </div>
+    
+<div data-role="page" id="page11" data-theme="b">     
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+      <h1>Convierte programas elaborados en archivos Ejecutables</h1>
+    </div>
+    <div data-role="content" align="justify">
+       <p>
+         <h2>Programas en Archivos Ejecutables</h2> 
+         Con esto en mente, lo primero que me gustaría saber es si se pueden generar los típicos ejecutables que se generaban con visual basic v.6. Estuve mirando en este foro un mensaje que me encontré, pero al final no me quedo muy claro si se podía o no. Lo que si sé, porque lo vi en un libro de VB.NET, y lo he probado es como generar un fichero .exe con visual studio de la siguiente manera:
+
+es un ejemplo muy sencillo, seleccionando la opción "Console Application", y el código es el siguiente:
+
+Imports System
+
+Public Module test
+
+Dim mensaje As String = "buenos días"
+
+Public sub main()
+
+Console.WriteLine(mensaje)
+
+End Sub
+
+End Module
+
+Se guarda el código en el fichero correspondiente con extensión .vb 
+       </p>
+       </div>
+       <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+     <h2>Ejecutables.exe</h2>
+     <div><p>
+      El Framework.NET incluye un compilador en línea de comandos para Visual Basic. y para compilar el código fuente del ejemplo anterior hay que abrir una ventana de comando DOS, pero no desde la ventana de DOS normal (es decir, la que se obtiene desde: inicio/ejecutar... con el comando: cmd), si no que hay que ir desde: inicio/todos los programas/Microsoft Visual Studio 2010/visual studio tools/visual studio command prompt 2010. De esta forma se abre la ventana de comandos de visual studio. Nos posicionamos en la carpeta donde hayamos guardado el fichero anterior con extensión .vb y tecleamos la siguiente instrucción:
+
+vbc Module1.vb (yo he dejado el nombre por defecto que ha generado VS 2010)
+
+Y de esta forma se genera el fichero: Module1.exe
+
+Si ejecutamos el fichero, desde esta misma ventana, aparece el mensaje: "Buenos días" que se indicaba en el código. Yo lo he probado y funciona perfectamente.
+
+Lo que me gustaría hacer, si es que se puede, es crear un archivo ejecutable .exe con Visual Studio 2010 (tipo el fichero que se podía crear desde Visual basic v.6), pero utilizando la opción: "Windows Form Application" en lugar de "Console Application", para de esta forma generar un sencillo formulario con un botón, en el botón incluir el código anterior con las modificaciones necesarias, y generar el fichero ejecutable (.exe). De tal manera que haciendo doble clic en ese ejecutable generado apareciera el formulario, y haciendo clic sobre el botón del formulario, arranque autocad y aparezca el mensaje de "buenos días" en una ventana de Mgbox por ejemplo.
+
+Es un ejemplo sencillo, pero si alguien me pudiera dar alguna pista si esto es posible hacerlo, podría ir avanzando en otro tipo de aplicaciones.
+
+Muchas gracias y un saludo.
+     </p></div>
+   </ul>
+  </div>
+  </div>
+       
+       <div align="center">
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image62','','imagenes/visual_studio_purple.png',1)"><img src="imagenes/42.jpg" width="344" height="147" id="Image62"></a> </div>
+     
+<div data-role="content" align="center">
+  <div data-role="main" class="ui-content" align="justify">
+  <div style="width:20%;">
+    <a href="" class="ui-btn ui-btn-icon-right">
+    <h2>Seguir leyendo...</h2>
+    </a>
+  </div>
+</div>
+</div>
+
+<div data-role="content" align="center">
+  <div data-role="main" class="ui-content" align="justify">
+  <div style="width:20%;">
+    <a href="https://www.youtube.com/watch?v=9SVjO5rMieM" class="ui-btn ui-btn-icon-right">
+    <h2>Click para ver Video...</h2>
+    </a>
+  </div>
+</div>
+</div> 
+       
+     <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+     <h4>Juan Pablo Torres Miscoac</h4>
+       <img src="res/android/mdpi.png" width="56" height="46">
+   </div>
+  </div>  
+    
+</body>
+</html>
